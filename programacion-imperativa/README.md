@@ -1,1 +1,1 @@
-# learning-java
+# learning-js
