@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/stylesLogIn.css" />
+    <title>LogIn</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="descuentos">
+        <p>20% de descuento en todos los productos!</p>
+      </div>
+      <div class="heroes">
+        <a href="./index.html"><img src="./img/store.png"></a>
+        <h1>Tienda Heroes</h1>
+      </div>
+      <nav class="nav">
+        <div class="logo"></div>
+        <ul class="lista">
+          <a href="./contacto.html"><li class="items">Contacto</li></a>
+          <a href="./registro.html"><li class="items">Registrarme</li></a>
+          <a href="./login.html"><li class="items">Ingresar</li></a>
+        </ul>
+        <label for="menu"
+          ><img src="./img/menu.png " class="logo-menu"
+        /></label>
+        <input type="checkbox" id="menu" class="input-button"/>
+        <ul class="lista-mobile">
+          <a href="./contacto.html"><li class="items">Contacto</li></a>
+          <a href="./registro.html"><li class="items">Registrarme</li></a>
+          <a href="./login.html"><li class="items">Ingresar</li></a>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form method="GET" class="formularioLogin">
+        <div class="contenedoresLogin">
+          <h2>Login</h2>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Usuario"
+            required
+          />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Contraseña"
+            required
+          />
+          <button><a href="../Heroes/index.html">Entrar</a></button>
+        </div>
+        <p>¿No tienes una cuenta? <a href="./registro.html">Registrarme</a></p>
+      </form>
+    </main>
+    <footer>
+      <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+  </body>
+</html>

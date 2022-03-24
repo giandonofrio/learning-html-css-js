@@ -1,0 +1,148 @@
+$bg-primary: #03faee;
+$bg-secondary: #f8f8f8;
+$color-primary: #8b8b8b;
+$shadow: #92f7f2;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+span{
+  display:inline-block;
+  background-color: #03faee;
+  height: 50px;
+}
+
+
+.headerMaster {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0px;
+
+  h1 {
+    margin-left: 150px;
+    font-weight: bold;
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    margin-right: 100px;
+    font-weight: bold;
+  }
+}
+.mainMaster {
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 150px;
+  width: 100%;
+  .wireframeImg {
+    margin: -50px 200px;
+  }
+  .botones {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    button {
+      font-weight: bold;
+      background-color: $bg-primary;
+      width: 110px;
+      height: 70px;
+      border-style: dotted;
+      border-radius: 5px;
+      margin: 20px 0;
+    }
+  }
+}
+.wireFrame {
+  display: flex;
+  flex-direction: column;
+  h2 {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    line-height: 80px;
+    font-size: 65px;
+    letter-spacing: 10px;
+  width: 50%;
+  }
+  p {
+    font-size: x-large;
+    width: 90%;
+    margin-top: 20px;
+    line-height: 50px;
+  }
+}
+
+.containerMaster {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  section {
+    width: 400px;
+    height: 300px;
+    background-color: $bg-secondary;
+    border-radius: 5px;
+    h3 {
+      margin-left: 20px;
+      span{
+        height: 10px;
+      }
+    }
+    p {
+      margin: 10px 20px;
+      line-height: 25px;
+    }
+  }
+
+  .number__container {
+    margin: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid;
+    box-shadow: -5px 0 0px $bg-primary;
+
+    p {
+      margin: 15px 20px;
+      font-weight: bold ;
+    }
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  align-items: center;
+  p{
+    margin-left: 100px;
+    font-weight: bold;
+  }
+  .redes {
+    display: flex;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    gap: 20px;
+    .redes__logos {
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      box-shadow: -5px 0 0px $bg-primary;
+     img{
+       height: 30px;
+       width: 30px;
+       margin: 10px;
+     }
+      
+    }
+  }
+}

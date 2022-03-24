@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/stylessRegistro.css" />
+    <title>Registro</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="descuentos">
+        <p>20% de descuento en todos los productos!</p>
+      </div>
+      <div class="heroes">
+        <a href="./index.html"><img src="./img/store.png" /></a>
+        <h1>Tienda Heroes</h1>
+      </div>
+      <nav class="nav">
+        <div class="logo"></div>
+        <ul class="lista">
+          <a href="./contacto.html"><li class="items">Contacto</li></a>
+          <a href="./registro.html"><li class="items">Registrarme</li></a>
+          <a href="./login.html"><li class="items">Ingresar</li></a>
+        </ul>
+        <label for="menu"
+          ><img src="./img/menu.png " class="logo-menu"
+        /></label>
+        <input type="checkbox" id="menu" class="input-button"/>
+        <ul class="lista-mobile">
+          <a href="./contacto.html"><li class="items">Contacto</li></a>
+          <a href="./registro.html"><li class="items">Registrarme</li></a>
+          <a href="./login.html"><li class="items">Ingresar</li></a>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form method="GET">
+        <div class="formularioDatos">
+          <legend>Registro</legend>
+          <div class="datosFormularios">
+            <input
+              type="text"
+              name="nombre"
+              id="nombre"
+              placeholder="Nombre y Apellido"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Correo Electrónico"
+              required
+            />
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Contraseña"
+              required
+            />
+            <select name="pais" required>
+              <option value="1">Argentina</option>
+              <option value="2">Colombia</option>
+              <option value="1">Brasil</option>
+            </select>
+            <section class="botones">
+              <button type="reset">Resetear</button>
+              <button type="submit">Registrar</button>
+            </section>
+            <p>¿Ya tenés una cuenta? <a href="login.html">Ingresá</a></p>
+          </div>
+        </div>
+      </form>
+    </main>
+
+    <footer>
+      <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+  </body>
+</html>

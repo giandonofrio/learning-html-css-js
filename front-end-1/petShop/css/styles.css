@@ -1,0 +1,468 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline;
+  padding-right: 15px;
+}
+
+ul img {
+  width: 9px;
+  height: 8px;
+}
+
+h1 {
+  font-size: 25px;
+  padding: 20px 60px;
+}
+nav {
+  margin-right: 40px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav img {
+  height: 14px;
+}
+a:hover {
+  background-color: #222222;
+  border-radius: 5%;
+}
+
+h2 {
+  font-size: 30px;
+  background-color: #ffffff;
+  height: 54px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 8px;
+  border-radius: 5px;
+}
+button:hover {
+  transform: scale(1.1);
+}
+/*Estilos Especificos*/
+
+.ofertas {
+  background-color: #222222;
+  height: 30px;
+  font-size: 15px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ofertas p {
+  padding-left: 90px;
+}
+
+.config {
+  padding-right: 40px;
+}
+
+.navNaranja {
+  background-color: #f0a83e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.CatyDog {
+  color: white;
+}
+
+.imgPrincipal {
+  background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.textoImgPrincipal > h2 {
+  margin-right: 50px;
+  font-size: xxx-large;
+  height: max-content;
+  color: #3c2313;
+}
+.textoImgPrincipal > p {
+  text-align: center;
+  font-size: x-large;
+  padding: 20px;
+}
+
+.textoImgPrincipal > input {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 50%;
+  background-color: #f0a83e;
+  color: white;
+  font-size: xx-large;
+}
+.productosDestacados {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.productosDestacados img {
+  height: 60px;
+}
+
+.productosDestacados h2 {
+  font-size: 50px;
+}
+
+.productosDestacados ul {
+  margin-top: 30px;
+  font-size: 17px;
+}
+
+.productos {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.churrasco {
+  background-image: url(../img/churrasquito.png);
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  width: 400px;
+}
+.comedero {
+  background-image: url(../img/comedero.png);
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  width: 400px;
+}
+.hueso {
+  background-image: url(../img/Huesito.png);
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  width: 400px;
+}
+
+.textoProducto {
+  text-align: center;
+  position: relative;
+  top: 300px;
+  line-height: 20px;
+  font-weight: bold;
+}
+.precio {
+  color: #f0a83e;
+  padding-bottom: 30px;
+}
+
+.contacto {
+  height: 40px;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+/* FORMULARIO CONTACTO */
+.contactanos {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  color: #3c2313;
+  font-size: 25px;
+  text-align: center;
+}
+form > legend {
+  padding: 20px;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+input {
+  background-color: #3c2313;
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  width: 700px;
+  border-radius: 15px;
+  margin: 10px;
+  border-style: none;
+}
+input::placeholder {
+  color: white;
+  font-size: 17px;
+  padding: 10px;
+}
+
+button {
+  font-size: 25px;
+  width: 160px;
+  height: 70px;
+  border-radius: 15px;
+  border-style: none;
+  color: white;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+.reset {
+  background-color: #8a8787;
+}
+.enviar {
+  background-color: #f0a83e;
+}
+
+/* FOOTER Superior*/
+
+.footerSuperior {
+  display: flex;
+  margin-top: 50px;
+  background-color: #f0a83e;
+  align-items: center;
+  justify-content: space-between;
+}
+.suscribe {
+  display: flex;
+}
+.suscribe img {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.boletin {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+}
+.boletin > input {
+  background-color: white;
+  width: 400px;
+  border-radius: 50px;
+}
+.boletin > input::placeholder {
+  color: #a0a0a0;
+}
+
+.boletin > button {
+  margin-top: 5px;
+  background-color: #3c2313;
+  width: 80px;
+  height: 55px;
+  font-size: 13px;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 50px;
+  margin-right: 50px;
+}
+.footerSuperior h3 {
+  font-size: 35px;
+  color: white;
+}
+/*Footer principal*/
+.footerPrincipal {
+  display: flex;
+  background-color: #3c2313;
+  height: 300px;
+  justify-content: space-between;
+}
+
+.contactoFooter {
+  display: flex;
+  gap: 15px;
+  margin-left: 70px;
+  padding: 18px;
+}
+.contactoFooter h5 {
+  color: white;
+  font-size: 20px;
+}
+.contactoFooter p {
+  color: #8a8787;
+  font-size: 10px;
+}
+
+.logoFooter {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 90px;
+}
+
+.footerInferior {
+  background-color: #222222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.lista-mobile {
+  display: none;
+}
+.logo-menu {
+  display: none;
+}
+.input-button {
+  display: none;
+}
+@media (max-width: 800px) {
+  .navNegro {
+    display: none;
+  }
+  .navNaranja > h1 {
+    width: 85%;
+    padding: 20px 10px;
+  }
+  .lista {
+    display: none;
+  }
+  .logo-menu {
+    display: flex;
+    height: 30px;
+    width: 30px;
+  }
+  .input-button {
+    display: none;
+  }
+  .input-button:checked ~ .lista-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+  .lista {
+    visibility: hidden;
+  }
+  .nav {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+  }
+  .lista-mobile {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: whitesmoke;
+    width: 100%;
+    text-align: center;
+    padding: 10px 10px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+  .lista-mobile a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .lista-mobile a li:hover {
+    color: #00669f;
+  }
+
+  .textoImgPrincipal {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+  }
+  .textoImgPrincipal > h2 {
+    display: flex;
+    width: 85%;
+    font-size: xx-large;
+    margin: auto;
+    padding: 10px;
+    height: 90px;
+    align-items: center;
+    text-align: center;
+  }
+  .textoImgPrincipal > p {
+    color: white;
+    font-weight: bold;
+    text-align: right;
+  }
+  .textoImgPrincipal > input {
+    margin-right: 15px;
+    padding: 0;
+    font-size: 1em;
+  }
+  .productosDestacados {
+    display: flex;
+    flex-direction: column;
+  }
+  .productosDestacados > img {
+    width: 100px;
+    height: 120px;
+    margin: auto;
+  }
+  .productosDestacados > h2 {
+    color: #3c2313;
+    height: max-content;
+  }
+
+  .productos {
+    display: flex;
+    flex-direction: column;
+  }
+  .churrasco {
+    width: 80%;
+    margin: auto;
+  }
+
+  .comedero {
+    margin: auto;
+    width: 80%;
+  }
+  .hueso {
+    width: 80%;
+    margin: auto;
+  }
+
+  .contactanos input {
+    width: 95%;
+  }
+  .contactanos button {
+    width: 40%;
+    font-size: medium;
+  }
+  .footerSuperior {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .boletin {
+    justify-content: center;
+    width: 100%;
+  }
+  .boletin button {
+    margin: auto 0;
+    font-size: small;
+    padding: 5px;
+  }
+  .footerPrincipal {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 400px;
+  }
+  .containerFooter {
+    margin: auto;
+    width: 100%;
+  }
+
+  .logoFooter {
+    margin: auto;
+  }
+}
